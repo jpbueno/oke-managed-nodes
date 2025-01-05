@@ -1,6 +1,21 @@
+variable "tenancy_id" {
+  description = "The OCID of the tenancy root compartment."
+  type        = string
+}
+
 variable "compartment_id" {
   description = "The OCID of the compartment where resources will be created."
   type        = string
+}
+
+variable "cluster_name" {
+  type = string
+  description = "The name of the OKE cluster."
+}
+
+variable "compartment_name" {
+  type = string
+  description = "(optional) describe your variable"
 }
 
 variable "region" {
