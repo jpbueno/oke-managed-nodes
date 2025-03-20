@@ -9,11 +9,12 @@ pod_subnet_id = "ocid1.subnet.oc1.iad.aaaaaaaaom5e777tof6ra4oio6kkeqdlcuwden74wq
 lb_public_subnet_id = "ocid1.subnet.oc1.iad.aaaaaaaask2brrxoerab3zqqnqhx6wnholhawpvs3xr6bt66r6zyyzxwq6ma"
 api_public_subnet_id = "ocid1.subnet.oc1.iad.aaaaaaaasi25q3guicut7bbex7dj6ar7f7f4tagfnltwox6cet2py5b7gjda"
 availability_domain = "lpZJ:US-ASHBURN-AD-1"
-kubernetes_version = "v1.31.1"
+kubernetes_version = "v1.32.1"
 node_shape         = "VM.Standard.E5.Flex"
 node_count         = 3
-image_id = "ocid1.image.oc1.iad.aaaaaaaal5ocygrbx2lfvrnugr6yqlskpomeww6d7pqb3zes2pzho3td4gcq"
+image_id = "ocid1.image.oc1.iad.aaaaaaaav3mbu4obi2rusqeswiva6pwnsbxpuacuu5ifkpqyne5yco4my33a"
 node_ocpus = "2"
 node_memory_gbs = "8"
 cluster_type = "ENHANCED_CLUSTER"
 cni_type = "OCI_VCN_IP_NATIVE"
+
